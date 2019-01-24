@@ -8,7 +8,7 @@ I make no guarantees these are at all balanced or suited for blind play. Almost 
 ### Ex-Elder Mythos Cultist
 Applies ex-class principles to the Elder Mythos Cultist archetype for Cleric. Removes Channel the Void and Maddening Gaze so the Cleric can take any other archetype they wish. Made for an EMC cleric who converted away from the Elder Gods. 
 
-### Paldin of Erastil
+### Paladin of Erastil
 A Paladin archetype designed for followers of the God of Hunters and doesn't suck as much as the Divine Hunter archetype (seriously, it absolutely blows). Extra skill points per level and class skills, a bit better in ranged combat, and loses Heavy Armor and Shield proficiencies in exchange for dodge bonuses to AC and proficiencies in nets and bolas. Made for a character whose job is more like that of a Witcher than a Crusader.
 
 ### Vampire Lord
