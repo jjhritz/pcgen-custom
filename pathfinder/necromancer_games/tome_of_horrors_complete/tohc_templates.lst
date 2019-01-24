@@ -1,0 +1,62 @@
+SOURCELONG:Tome of Horrors - Complete	SOURCESHORT:MFZ	SOURCEWEB:https://froggodgames.com/frogs/product/tome-of-horrors-complete/	SOURCEDATE:2011
+# ORIGINAL ENTRY: John J. Hritz
+# ORIGINAL ENTRY DATE: 2018/12/31
+
+### Dire Animal: https://www.d20pfsrd.com/bestiary/monster-listings/templates/dire-creature-cr-2-tohc/
+## STAT ADJUSTMENTS
+#	CR:	 2
+#	Size and Type:	If base creature is Tiny or smaller, increase to Small. Otherwise, increase its size by one size category. 
+#					The dire creature DOES NOT gain the benefits or penalties to ability scores that arise from increased size.
+#	AC:	+5 Natural Armor.  Stacks with existing natural armor.
+#	HD:	If size is Small, +1 HD (Min. 2)
+#		If size is Medium, +3 HD (Min. 4)
+#		If size is Large or Larger, double HD (Min. 6)
+#		Recalculate base attack bonus and base saves according to the dire creature's new Hit Dice total 
+#		(base attack bonus equals 3/4 Hit Dice, Fort and Ref equal 1/2 Hit Dice +2, Will equals 1/3 Hit Dice).
+#	Speed:	+10 ft.
+#	Attacks:	Adjust natural and special attacks to new size, per Natural Attack progression table
+#	Abilities:	Str +8, Dex +2, Con +8, Wis +4, Cha +4
+#	Feats: 	Same as base creature, with additional feats gained through the usual means from the increase in HD.
+#			If the base animal has Weapon Finesse and the feat would become useless after its increase in Strength, then it may trade Weapon Finesse for Weapon Focus with one of its natural attacks.
+#	Skills: A dire creature gains skill points equal to 2 + Intelligence modifier (minimum 1) for each HD it gained. Its class skills are unchanged.
+
+###Block: Creature Templates
+# Template Name			Damage Reduction	Template																																		Source Page			Define					Define Stat			Stat bonus																								Modify VAR				Ability																												Apply Kit	Subrace
+Dire Animal	PRERACE:1,RACETYPE=Animal	!PRERACE:1,Dire%	RACESUBTYPE:Dire	CR:2	VISIBLE:YES	BONUS:MOVEADD|TYPE.ALL|10	TEMPLATE:CHOOSE:Fine Dire Animal|Diminutive Dire Animal|Tiny Dire Animal|Small Dire Animal|Medium Dire Animal|Large Dire Animal|Huge Dire Animal|Gargantuan Dire Animal|Colossal Dire Animal		
+
+#The different sizes is to first force the smaller creatures to small and second to prevent size upgrades from stacking with the dire bonuses.
+Fine Dire Animal			PRESIZEEQ:F			BONUS:SIZEMOD|NUMBER|3		BONUS:STAT|STR|2	BONUS:STAT|DEX|8	BONUS:STAT|CON|8	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|2		BONUS:COMBAT|AC|AC_Natural_Armor|5|TYPE=NaturalArmor.STACK
+Diminutive Dire Animal		PRESIZEEQ:D			BONUS:SIZEMOD|NUMBER|2		BONUS:STAT|STR|2	BONUS:STAT|DEX|6	BONUS:STAT|CON|8	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|2		BONUS:COMBAT|AC|AC_Natural_Armor|5|TYPE=NaturalArmor.STACK
+Tiny Dire Animal			PRESIZEEQ:T			BONUS:SIZEMOD|NUMBER|1		BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|8	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|2		BONUS:COMBAT|AC|AC_Natural_Armor|5|TYPE=NaturalArmor.STACK
+Small Dire Animal			PRESIZEEQ:S			BONUS:SIZEMOD|NUMBER|1		BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|6	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|2		BONUS:COMBAT|AC|AC_Natural_Armor|5|TYPE=NaturalArmor.STACK
+Medium Dire Animal			PRESIZEEQ:M			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|3		BONUS:COMBAT|AC|AC_Natural_Armor|3|TYPE=NaturalArmor.STACK
+Large Dire Animal			PRESIZEEQ:L			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD		BONUS:COMBAT|AC|AC_Natural_Armor|2|TYPE=NaturalArmor.STACK
+Huge Dire Animal			PRESIZEEQ:H			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD		BONUS:COMBAT|AC|AC_Natural_Armor|1|TYPE=NaturalArmor.STACK
+Gargantuan Dire Animal		PRESIZEEQ:G			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD
+Colossal Dire Animal		PRESIZEEQ:C										BONUS:STAT|STR|8	BONUS:STAT|DEX|2	BONUS:STAT|CON|8	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD
+
+
+#BONUS:HD|DireCreatureHD|1 changes SIZE of hit dice, not number of them
+
+# Zombie (Virulent)																																											SOURCEPAGE:p.288	DEFINE:NoTypeTraits|0						BONUS:STAT|STR|2	BONUS:STAT|DEX|-2																	BONUS:VAR|NoTypeTraits|1	ABILITY:Special Ability|AUTOMATIC|Aura of Infection ~ Virulent Zombie|Plague Cloud ~ Virulent Zombie|Undead Traits|Zombie ~ Staggered	ABILITY:FEAT|AUTOMATIC|Toughness	KIT:1|NE	SUBRACE:Zombie (Virulent)
+
+#
+# End
+#
+# Need to be able to get the HitDice Advancement value for a specific size
+#Dire Animal									CR:1					VISIBLE:YES					
+
+#Dire Animal Size Change			Better to offer abilities based on 
+#PRERACE:1,RACETYPE=Animal
+#!PRERACE:1,Dire%
+
+
+
+
+#Size Increase calculation
+
+# Bonus Hit Dice calculation
+# if(SIZE<=3,BONUS:HD|DireCreatureHD|1,if(SIZE==4,BONUS:HD|DireCreatureHD|3,if(SIZE>=5,BONUS:HD|DireCreatureHD|HD,0)))
+# if(SIZE<=3,BONUS:HD|DireCreatureHD|1,)
+# if(SIZE==4,BONUS:HD|DireCreatureHD|3,)
+# if(SIZE>=5,BONUS:HD|DireCreatureHD|HD)

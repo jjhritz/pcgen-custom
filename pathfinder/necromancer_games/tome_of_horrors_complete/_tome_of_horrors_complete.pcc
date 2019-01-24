@@ -1,0 +1,53 @@
+# CVS $Revision$ $Author$ -- Sat Nov 23 14:46:39 2013 -- reformated by prettylst.pl v1.50 (build 22134)
+CAMPAIGN:The Tome of Horrors - Complete
+GAMEMODE:Pathfinder
+TYPE:NecromancerGames.TomeOfHorrors
+RANK:3
+STATUS:BETA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder RPG
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Frog God Games
+PUBNAMESHORT:Frog God
+PUBNAMEWEB:https://froggodgames.com/frogs/
+SOURCELONG:The Tome of Horrors - Complete
+SOURCESHORT:ToHC
+SOURCEWEB:https://froggodgames.com/frogs/product/tome-of-horrors-complete/
+SOURCEDATE:2011
+ISOGL:YES
+
+COVER:The-Tome-of-Horrors-Complete-PF-1.jpg
+LOGO:@/publisher_logos/Frog-God-logo-1.png
+URL:WEBSITE|https://froggodgames.com/frogs/|Visit Frog God Games!
+URL:Frog God Games|https://froggodgames.com/frogs/product/tome-of-horrors-complete/Buy this book from the publisher!
+
+DESC:The Tome of Horrors? But that’s been done already; why do it again? Well, actually it’s been done three times, but never like this. With the advent of the Pathfinder Roleplaying Game as the newest torchbearer for the world’s most popular role-playing game, we need monsters—lots of monsters. That’s where The Tome of Horrors Complete delivers in spadesCOPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Inc.; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:Pathfinder RPG Advanced Player's Guide. Copyright 2010, Paizo Inc.; Author: Jason Bulmahn.
+COPYRIGHT:Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+COPYRIGHT:PCGen dataset conversion for "The Tome of Horrors - Complete", Copyright 2018, John J. Hritz
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:tohc_abilities.lst
+#EQUIPMENT:mfz_equip.lst
+#ABILITY:mfz_feats.lst
+#KIT:mfz_kits.lst
+#RACE:mfz_races.lst
+#SPELL:mfz_spells.lst
+TEMPLATE:tohc_templates.lst
+
+# Out of set data sources
+# ABILITY:*/pathfinder/paizo/roleplaying_game/bestiary/b1_abilities_race.lst|(INCLUDE:Zombie ~ Staggered)|!PRECAMPAIGN:1,INCLUDES=Bestiary
+# TEMPLATE:*/pathfinder/paizo/roleplaying_game/bestiary/b1_templates.lst|(INCLUDE:Zombie ~ Tiny|Zombie ~ Small|Zombie ~ Medium|Zombie ~ Large|Zombie ~ Huge|Zombie ~ Gargantuan|Zombie ~ Colossal)|!PRECAMPAIGN:1,INCLUDES=Bestiary
+
+# Forward References
+# FORWARDREF:CLASSSPELLLIST|Antipaladin,Inquisitor
+
+#
+# End
+#

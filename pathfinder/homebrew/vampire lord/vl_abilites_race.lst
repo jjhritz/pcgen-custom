@@ -1,0 +1,2 @@
+###Block: Vampire Lord Abilities
+Fangs		KEY:Vampire Lord ~ Fangs	TYPE:SpecialAttack.Extraordinary		DESC:	You gain a Bite natural attack dealing 1d6 damage (medium). If you already have aa bite attack, increase die size by 1 step. When you deal damage with this bite attack to a living, corporeal creature, you gain temporary HP equal to 1/2 damage dealt.  This temporary HP stacks with itself, up to a value equal to your maximum HP.	This attack is considered a magic weapon for the purposes of overcoming DR
