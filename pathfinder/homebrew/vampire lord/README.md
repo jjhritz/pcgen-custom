@@ -25,11 +25,12 @@ A template geared towards PCs that offers more abilities than the base vampire t
 **Blood-Starved (Ex):** A vampire who has not consumed enough blood to sustain itself suffers a -1 penalty on all d20 rolls and saves. These penalties stack with themselves every 3 days the vampire goes without accruing the requisite amount of feeding. These penalties are immediately removed once the vampire has and consumes enough temporary HP to slake its Thirst.
 
 **Frenzy (Ex):** When you are below half health and take damage, you must succeed on a Will save (DC 15 + damage taken) or enter Rage as a Barbarian, with the following exceptions:
-  *You do not gain temporary HP from entering Frenzy.
-  *You can enter Frenzy even if it is Fatigued or Exhausted, but the penalties from those conditions are halved.
-  *You cannot voluntarily enter Frenzy.
-  *You cannot voluntarily end a Frenzy. You must succeed on a DC 20 Will save at the start of each turn it is Frenzied or remain Frenzied.
-  *You must attack the last creature to damage you. If you kill this creature before taking damage again, the you instead must attack the nearest creature, regardless of if it is friend or foe.
+
+  * You do not gain temporary HP from entering Frenzy.
+  * You can enter Frenzy even if it is Fatigued or Exhausted, but the penalties from those conditions are halved.
+  * You cannot voluntarily enter Frenzy.
+  * You cannot voluntarily end a Frenzy. You must succeed on a DC 20 Will save at the start of each turn it is Frenzied or remain Frenzied.
+  * You must attack the last creature to damage you. If you kill this creature before taking damage again, the you instead must attack the nearest creature, regardless of if it is friend or foe.
 
 **Light Sensitivity (Ex):** You are dazzled in areas of bright sunlight or within the radius of a daylight spell.
 
