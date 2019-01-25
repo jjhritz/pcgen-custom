@@ -22,7 +22,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 
 **Thirst (Ex):** A vampire is sustained by the blood of the living. Each sunrise, you must consume an amount of temporary HP gained from your Fangs attack equal to 10% of its maximum HP (rounded up). If you start the day without the requisite temporary HP, you gain the Blood-Starved special quality (see below).
 
-**Blood-Starved (Ex):** A vampire who has not consumed enough blood to sustain itself suffers a -1 penalty on all d20 rolls and saves. These penalties stack with themselves every 3 days the vampire goes without accruing the requisite amount of feeding. These penalties are immediately removed once the vampire has and consumes enough temporary HP to slake its Thirst.
+**Blood-Starved (Ex):** If you have not consumed enough blood to sustain yourself, you suffer a -1 penalty on all d20 rolls and saves. These penalties stack with themselves every 3 days you go without accruing the requisite amount of feeding. These penalties are immediately removed once the vampire has and consumes enough temporary HP to slake its Thirst.
 
 **Frenzy (Ex):** When you are below half health and take damage, you must succeed on a Will save (DC 15 + damage taken) or enter Rage as a Barbarian, with the following exceptions:
 
