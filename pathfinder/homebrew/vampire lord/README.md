@@ -34,7 +34,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 
 **Light Sensitivity (Ex):** You are dazzled in areas of bright sunlight or within the radius of a daylight spell.
 
-**Sunlight Weakness (Ex):** Each hour you are affected by your Light Sensitivity, you must succeed on a Will save (DC 15 + hours exposed) or become fatigued (ignores immunity). If you are already fatigued, you become exhausted instead. Each time it fails this save, you also gain 1 temporary negative level. You may make saves to remove these negative levels immediately upon no longer being affected by Light Sensitivity. Any negative levels that are not removed by these saves persist as normal.
+**Sunlight Weakness (Ex):** Each hour you are affected by your Light Sensitivity, you must succeed on a Will save (DC 15 + hours exposed) or become fatigued (ignores immunity). If you are already fatigued, you become exhausted instead. Each time you fail this save, you also gain 1 temporary negative level. You may make saves to remove these negative levels immediately upon no longer being affected by Light Sensitivity. Any negative levels that are not removed by these saves persist as normal.
 
 **Channel Resistance (Ex):** A vampire has Channel Resistance bonus equal to 2 + its HD.
 
