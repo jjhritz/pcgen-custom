@@ -13,7 +13,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 **Skills:** +2 Bluff, +2 Diplomacy, +2 Perception, +2 Stealth
 
 ## Special Attacks
-**Fangs (Ex):** You gain a Bite natural attack dealing 1d6 damage (for a Medium creature). When you deal damage with this attack, you gain temporary hit points equal to 1/2 the damage you dealt. These temporary hit points stack with themselves, up to a total equal to your maximum HP.
+**Fangs (Ex):** You gain a Bite natural attack dealing 1d6 damage (for a Medium creature). When you deal damage with this attack, you gain temporary hit points equal to 1/2 the damage you dealt. These temporary hit points stack with themselves, up to a total equal to your maximum HP. This damage is considered Magic.
 
 **Draining Embrace (Ex):** When you have a creature Grappled or Pinned and damage it with your Fangs natural attack, you can choose to invoke this ability. When you do, you must use the Damage action each subsequent round you succesfully maintain the grapple, automatically dealing damage equal to your Fangs attack and gaining temporary HP as you would with that attack. This ability immediately ends if the target breaks free of the grapple.
 
