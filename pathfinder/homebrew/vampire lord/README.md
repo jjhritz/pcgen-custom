@@ -6,6 +6,8 @@ A template geared towards PCs that offers more abilities than the base vampire t
 
 **Senses:** Scent, Blindsight +20 ft., Darkvision 60 ft., Low-Light Vision 60 ft. If base creature has either Darkvision or Low-Light Vision, add 30 ft. to the existing distance instead.
 
+**Size and Type:** The creature’s type changes to undead (augmented). Do not recalculate class Hit Dice, BAB, or saves. The creature's size does not change.
+
 **Ability Scores:** +2 Str, +2 Dex, +2 Cha. As an undead, a vampire does not have a Constitution score. You derive bonus HP from Charisma instead.
 
 **Skills:** +2 Bluff, +2 Diplomacy, +2 Perception, +2 Stealth
