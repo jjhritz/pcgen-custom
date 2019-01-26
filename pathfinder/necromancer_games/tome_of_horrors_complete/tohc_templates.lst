@@ -34,29 +34,3 @@ Large Dire Animal			PRESIZEEQ:L			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|4	
 Huge Dire Animal			PRESIZEEQ:H			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD		BONUS:COMBAT|AC|AC_Natural_Armor|1|TYPE=NaturalArmor.STACK
 Gargantuan Dire Animal		PRESIZEEQ:G			BONUS:SIZEMOD|NUMBER|1							BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD
 Colossal Dire Animal		PRESIZEEQ:C										BONUS:STAT|STR|8	BONUS:STAT|DEX|2	BONUS:STAT|CON|8	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	ADDLEVEL:Animal|HD
-
-
-#BONUS:HD|DireCreatureHD|1 changes SIZE of hit dice, not number of them
-
-# Zombie (Virulent)																																											SOURCEPAGE:p.288	DEFINE:NoTypeTraits|0						BONUS:STAT|STR|2	BONUS:STAT|DEX|-2																	BONUS:VAR|NoTypeTraits|1	ABILITY:Special Ability|AUTOMATIC|Aura of Infection ~ Virulent Zombie|Plague Cloud ~ Virulent Zombie|Undead Traits|Zombie ~ Staggered	ABILITY:FEAT|AUTOMATIC|Toughness	KIT:1|NE	SUBRACE:Zombie (Virulent)
-
-#
-# End
-#
-# Need to be able to get the HitDice Advancement value for a specific size
-#Dire Animal									CR:1					VISIBLE:YES					
-
-#Dire Animal Size Change			Better to offer abilities based on 
-#PRERACE:1,RACETYPE=Animal
-#!PRERACE:1,Dire%
-
-
-
-
-#Size Increase calculation
-
-# Bonus Hit Dice calculation
-# if(SIZE<=3,BONUS:HD|DireCreatureHD|1,if(SIZE==4,BONUS:HD|DireCreatureHD|3,if(SIZE>=5,BONUS:HD|DireCreatureHD|HD,0)))
-# if(SIZE<=3,BONUS:HD|DireCreatureHD|1,)
-# if(SIZE==4,BONUS:HD|DireCreatureHD|3,)
-# if(SIZE>=5,BONUS:HD|DireCreatureHD|HD)

@@ -42,7 +42,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 ### 1st level:
 **Blood Heal (Su):** As a swift action, you can regain HP by sacrificing twice as much temporary HP gained from feeding.
 
-**Hypnotic (Sp):** As a standard action, you may cast Charm Person and Charm Animal as a spell like ability a number of times per day equal to 1/2 your hit dice, with a Caster Level equal to your character level.
+**Hypnotic (Sp):** As a standard action, you may cast Charm Person and Charm Animal as a spell like ability a number of times per day equal to 1/2 your HD, with a Caster Level equal to your character level and a DC equal to 10 + 1/2 your HD + your Charisma modifier.
 
 ### 2nd level:
 **Blood Buff (Su):** As a swift action, you can sacrifice 10 temporary HP gained from feeding to increase one of your Ability Scores by 2 for a number of rounds equal to your HD. This ability can be ended as a free action. This ability can be invoked again while it is active, but the temporary HP cost increases by 10 for each active instance.
@@ -58,7 +58,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 **Inescapable Embrace (Ex):** You gain the Improved Grapple feat, even if you do not meet the prerequisites, and a +2 bonus to grapple checks, increasing by 1 every 3 levels hereafter.
 
 ### 5th level:
-**Swarm Form (Su):** As a standard action, you can spend 10 temporary HP gained from feeding to change into a bat swarm or swarm of creatures of the Vermin type. You retain your HP, HD, type, and special qualities in this form, but otherwise counts as the swarm of creatures you transformed into. You remain in this form until you take another standard action to regain your original form or until the next sunrise, whichever occurs first.
+**Swarm Form (Su):** As a standard action, you can spend 10 temporary HP gained from feeding to change into a bat swarm or swarm of creatures of the Vermin type. You retain your HP, HD, type, and special qualities in this form, but otherwise count as the swarm of creatures you transformed into. You remain in this form until you take another standard action to regain your original form or until the next sunrise, whichever occurs first.
 
 **Torpor (Su):** A vampire can choose to enter a deep slumber to heal their wounds and slow their bloodlust. When you use this ability, you must slumber for a number of hours equal to or greater than your HD. While slumbering, you regain HP and heal ability score damage at twice the normal rate and your Thirst is automatically considered sated for the day. While in Torpor, you are considered unconscious and must make a DC 20 Will save to voluntarily wake yourself before the appointed time; this reduces to DC 15 if you take damage. Others may wake you using the Aid Another action with a DC equal to the DC required to wake yourself.
 
@@ -77,7 +77,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 **Celerity (Su):** As a swift action, a vampire can spend 10 temporary HP gained from feeding to gain the effect the Haste spell with a range of Personal at a caster level equal to half its HD.
 
 ### 8th level:
-**Enervating Strike (Su):** You gain a slam attack that causes energy drain. If the abse creature already has a slam attack, increase its damage die by one step. Any natural weapons you have also cause energy drain. This ability can only be used once per round, regardless of the number of attacks you make.
+**Enervating Strike (Su):** You gain a slam attack that causes energy drain. If the base creature already has a slam attack, increase its damage die by one step. Any natural weapons you have also cause energy drain. This ability can only be used once per round, regardless of the number of attacks you make.
 
 ### 9th level:
 **Create Spawn (Su):** Any creature you slay with your Fangs or energy drain, if that creature is the same as your base creature type, rises from death as a vampire spawn in 1d4 days. This vampire is under your command and remains enslaved until your destruction. You may only have a number of enslaved vampires equal to your HD. Any spawn beyond this still rise, but are not under your control.
