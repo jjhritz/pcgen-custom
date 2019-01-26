@@ -27,10 +27,10 @@ A template geared towards PCs that offers more abilities than the base vampire t
 **Frenzy (Ex):** When you are below half health and take damage, you must succeed on a Will save (DC 15 + damage taken) or enter Rage as a Barbarian, with the following exceptions:
 
   * You do not gain temporary HP from entering Frenzy.
-  * You can enter Frenzy even if it is Fatigued or Exhausted, but the penalties from those conditions are halved.
+  * You can enter Frenzy even if you are Fatigued or Exhausted, but the penalties from those conditions are halved.
   * You cannot voluntarily enter Frenzy.
   * You cannot voluntarily end a Frenzy. You must succeed on a DC 20 Will save at the start of each turn it is Frenzied or remain Frenzied.
-  * You must attack the last creature to damage you. If you kill this creature before taking damage again, the you instead must attack the nearest creature, regardless of if it is friend or foe.
+  * You must attack the last creature to damage you. If you kill this creature before taking damage again, you instead must attack the nearest creature, regardless of if it is friend or foe.
 
 **Light Sensitivity (Ex):** You are dazzled in areas of bright sunlight or within the radius of a daylight spell.
 
@@ -46,6 +46,8 @@ A template geared towards PCs that offers more abilities than the base vampire t
 
 ### 2nd level:
 **Blood Buff (Su):** As a swift action, you can sacrifice 10 temporary HP gained from feeding to increase one of your Ability Scores by 2 for a number of rounds equal to your HD. This ability can be ended as a free action. This ability can be invoked again while it is active, but the temporary HP cost increases by 10 for each active instance.
+
+**Spell Resistance (Ex):** You gain Spell Resistance equal to 11 + your character level.
 
 ### 3rd level:
 **Cold of the Grave (Ex):** You gain Resistance (Cold) 5
@@ -82,7 +84,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 ### 9th level:
 **Create Spawn (Su):** Any creature you slay with your Fangs or energy drain, if that creature is the same as your base creature type, rises from death as a vampire spawn in 1d4 days. This vampire is under your command and remains enslaved until your destruction. You may only have a number of enslaved vampires equal to your HD. Any spawn beyond this still rise, but are not under your control.
 
-**DR 5/magic, silver, good**
+**DR 5/good, silver**
 
 ### 10th level:
 **Draining Embrace 4 (Ex)**
@@ -95,7 +97,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 **Fast Healing 5 (Su):** As a swift action,  you can sacrifice 10 temporary HP gained from feeding to gain Fast Healing 5 for a number of rounds equal to half your character level. Any damage that bypasses the your DR also prevents your Fast Healing for 1 round. This missed round does count towards the total number of rounds Fast Healing lasts.
 
 ### 12th level:
-**Gaseous Form (Su):** As a standard action, you can spend 10 temporary HP gained from feeding to gain the effects of Gaseous Form with a caster level equal to half your character level. However, it can remain gaseous indefinitely and has a fly speed of 20 feet with perfect maneuverablity.
+**Gaseous Form (Su):** As a standard action, you can spend 10 temporary HP gained from feeding to gain the effects of Gaseous Form with a caster level equal to half your character level. However, you can remain gaseous indefinitely and have a fly speed of 20 feet with perfect maneuverablity.
 
 ### 13th level:
 **Draining Embrace 5 (Ex)**
@@ -107,7 +109,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 ### 14th level:
 **Improved Dominate (Su):** Your Dominate ability can target Undead. The target adds their Channel Resistance (if any) to their Will save to resist this effect.
 
-**DR 10/magic, silver, good**
+**DR 10/good, silver**
 
 ### 15th level:
 **Sunlight Resistance (Ex):** You gain a +5 bonus on tests to resist sunlight exposure and to remove negative levels caused by sunlight exposure. When making tests to remove negative levels caused by sunlight exposure, you may roll twice and keep the better result.
@@ -122,7 +124,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 **Fast Healing 10 (Su):** You now gain Fast Healing 10 instead of Fast Healing 5.
 
 ### 17th level:
-**Invisibility (Sp):** As a standard action, you can spend 10 temporary HP gained from feeding to cast Greater Invisibility as a spell-like ability with a caster level equal to half its character level.
+**Invisibility (Sp):** As a standard action, you can spend 10 temporary HP gained from feeding to cast Greater Invisibility as a spell-like ability with a caster level equal to half your character level.
 
 **Improved Frenzy Resistance (Ex):** The bonus from Frenzy Resistance increases to +4.
 
