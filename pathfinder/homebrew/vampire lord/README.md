@@ -17,6 +17,8 @@ A template geared towards PCs that offers more abilities than the base vampire t
 
 **Draining Embrace (Ex):** When you have a creature Grappled or Pinned and damage it with your Fangs natural attack, you can choose to invoke this ability. When you do, you must use the Damage action each subsequent round you succesfully maintain the grapple, automatically dealing damage equal to your Fangs attack and gaining temporary HP as you would with that attack. This ability immediately ends if the target breaks free of the grapple.
 
+**Gorging Bite (Ex):** A vampire, when trapped or impatient, can dispense with subtlety and display the true savagery of their monstrous nature. When you have a target grappled or pinned, you can invoke this ability when using the Damage action. In addition to dealing damage with your Fangs as normal, you also deal 1d4 Constitution damage and inflict Bleed equal to the amount of Constitution damage dealt. You gain HP and temporary HP equal to the sum of the damage and Constitution damage you deal with this attack. The trauma this attack inflicts is massive and extremely difficult to disguise or explain as anything but a vampire attack.
+
 ## Special Qualities
 **Shadowless (Ex):** You cast no shadow. In a room with shadowy or better illumination, creatures gain a +5 circumstance bonus on their Knowledge (religion) checks to identify you as a vampire.
 

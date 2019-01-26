@@ -14,6 +14,7 @@ PUBNAMESHORT:VL
 #SOURCESHORT:MPC
 SOURCEWEB:https://github.com/jjhritz/pcgen-custom/tree/master/pathfinder/homebrew/vampire%20lord
 SOURCEDATE:2019-01
+PRECAMPAIGN:1,INCLUDES=Bestiary
 #ISOGL:NO
 COPYRIGHT:Copyright 2019 John J. Hritz
 
