@@ -22,7 +22,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 ## Special Qualities
 **Shadowless (Ex):** You cast no shadow. In a room with shadowy or better illumination, creatures gain a +5 circumstance bonus on their Knowledge (religion) checks to identify you as a vampire.
 
-**Thirst (Ex):** A vampire is sustained by the blood of the living. Each sunrise, you must consume an amount of temporary HP gained from your Fangs attack equal to 10% of your maximum HP (rounded up). If you start the day without the requisite temporary HP, you gain the Blood-Starved special quality (see below).
+**Thirst (Ex):** A vampire is sustained by the blood of the living. Each sunrise, you must consume an amount of temporary HP gained from your Fangs attack equal to 25% of your maximum HP (rounded up). If you start the day without the requisite temporary HP, you gain the Blood-Starved special quality (see below).
 
 **Blood-Starved (Ex):** If you have not consumed enough blood to sustain yourself, you suffer a -1 penalty on all d20 rolls and saves. These penalties stack with themselves every 3 days you go without accruing the requisite amount of feeding. These penalties are immediately removed once the vampire has and consumes enough temporary HP to slake its Thirst.
 
