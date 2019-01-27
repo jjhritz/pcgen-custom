@@ -96,7 +96,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 **Dominate (Sp):** You can cast Dominate Person as a standard action against one creature within 30 ft. as a spell-like ability, with a caster level equal to your character level.  You may use this ability up to a number of times per day equal to 1/2 your HD (minimum 1).
 
 ### 11th level:
-**Fast Healing 5 (Su):** As a swift action,  you can sacrifice 10 temporary HP gained from feeding to gain Fast Healing 5 for a number of rounds equal to half your character level. Any damage that bypasses the your DR also prevents your Fast Healing for 1 round. This missed round does count towards the total number of rounds Fast Healing lasts.
+**Fast Healing 5 (Su):** As a swift action,  you can sacrifice 10 temporary HP gained from feeding to gain Fast Healing 5 for a number of rounds equal to half your character level. Any damage that bypasses the your DR also prevents your Fast Healing for 1 round. This missed round still counts towards the total number of rounds Fast Healing lasts.
 
 ### 12th level:
 **Gaseous Form (Su):** As a standard action, you can spend 10 temporary HP gained from feeding to gain the effects of Gaseous Form with a caster level equal to half your character level. However, you can remain gaseous indefinitely and have a fly speed of 20 feet with perfect maneuverablity.
