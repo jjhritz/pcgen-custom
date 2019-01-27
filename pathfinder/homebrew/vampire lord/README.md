@@ -17,12 +17,12 @@ A template geared towards PCs that offers more abilities than the base vampire t
 
 **Draining Embrace (Ex):** When you have a creature Grappled or Pinned and damage it with your Fangs natural attack, you can choose to invoke this ability. When you do, you must use the Damage action each subsequent round you succesfully maintain the grapple, automatically dealing damage equal to your Fangs attack and gaining temporary HP as you would with that attack. This ability immediately ends if the target breaks free of the grapple.
 
-**Gorging Bite (Ex):** A vampire, when trapped or impatient, can dispense with subtlety and display the true savagery of their monstrous nature. When you have a target grappled or pinned, you can invoke this ability when using the Damage action. In addition to dealing damage with your Fangs as normal, you also deal 1d4 Constitution damage and inflict Bleed equal to the amount of Constitution damage dealt. You gain HP and temporary HP equal to the sum of the damage and Constitution damage you deal with this attack. The trauma this attack inflicts is massive and extremely difficult to disguise or explain as anything but a vampire attack.
+**Gorging Bite (Ex):** A vampire, when trapped or impatient, can dispense with subtlety and display the true savagery of their monstrous nature. When you have a target grappled or pinned, you can invoke this ability when using the Damage action. In addition to dealing damage with your Fangs as normal, you also deal 1d4 Constitution damage and inflict Bleed equal to the amount of Constitution damage dealt. You gain HP and temporary HP equal to the sum of the damage and Constitution damage you deal with this attack. This attack cannot be combined with Draining Embrace. The trauma this attack inflicts is massive and extremely difficult to disguise or explain as anything but a vampire attack.
 
 ## Special Qualities
 **Shadowless (Ex):** You cast no shadow. In a room with shadowy or better illumination, creatures gain a +5 circumstance bonus on their Knowledge (religion) checks to identify you as a vampire.
 
-**Thirst (Ex):** A vampire is sustained by the blood of the living. Each sunrise, you must consume an amount of temporary HP gained from your Fangs attack equal to 10% of its maximum HP (rounded up). If you start the day without the requisite temporary HP, you gain the Blood-Starved special quality (see below).
+**Thirst (Ex):** A vampire is sustained by the blood of the living. Each sunrise, you must consume an amount of temporary HP gained from your Fangs attack equal to 10% of your maximum HP (rounded up). If you start the day without the requisite temporary HP, you gain the Blood-Starved special quality (see below).
 
 **Blood-Starved (Ex):** If you have not consumed enough blood to sustain yourself, you suffer a -1 penalty on all d20 rolls and saves. These penalties stack with themselves every 3 days you go without accruing the requisite amount of feeding. These penalties are immediately removed once the vampire has and consumes enough temporary HP to slake its Thirst.
 
@@ -44,7 +44,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 ### 1st level:
 **Blood Heal (Su):** As a swift action, you can regain HP by sacrificing twice as much temporary HP gained from feeding.
 
-**Hypnotic (Sp):** As a standard action, you may cast Charm Person and Charm Animal as a spell like ability a number of times per day equal to 1/2 your HD, with a Caster Level equal to your character level and a DC equal to 10 + 1/2 your HD + your Charisma modifier.
+**Hypnotic (Sp):** As a standard action, you may cast Charm Person and Charm Animal as a spell like ability a number of times per day equal to 1/2 your HD (minimum 1), with a Caster Level equal to your character level and a DC equal to 10 + 1/2 your HD + your Charisma modifier.
 
 ### 2nd level:
 **Blood Buff (Su):** As a swift action, you can sacrifice 10 temporary HP gained from feeding to increase one of your Ability Scores by 2 for a number of rounds equal to your HD. This ability can be ended as a free action. This ability can be invoked again while it is active, but the temporary HP cost increases by 10 for each active instance.
@@ -54,7 +54,7 @@ A template geared towards PCs that offers more abilities than the base vampire t
 ### 3rd level:
 **Cold of the Grave (Ex):** You gain Resistance (Cold) 5
 
-**Familiar Stranger (Sp):** You may cast Disguise Self as a spell-like ability with a caster level equal to your character level up to a number of times per day equal to 1/2 your HD.
+**Familiar Stranger (Sp):** You may cast Disguise Self as a spell-like ability with a caster level equal to your character level up to a number of times per day equal to 1/2 your HD (minimum 1).
 
 ### 4th level:
 **Draining Embrace 2 (Ex):** When you sustain your Draining Embrace, you automatically deal a number of dice of damage equal to the number of rounds you have sustained the ability, up to a maximum of 2 dice.  The number of dice increases by 1 at 7th level and every 3 levels thereafter.
@@ -93,7 +93,7 @@ You must remain in an area of low light or darker while in Torpor. If you would 
 
 **Inescapable Embrace +4 (Ex)**
 
-**Dominate (Sp):** You can cast Dominate Person as a standard action against one creature within 30 ft. as a spell-like ability, with a caster level equal to your character level.  You may use this ability up to a number of times per day equal to 1/2 your HD.
+**Dominate (Sp):** You can cast Dominate Person as a standard action against one creature within 30 ft. as a spell-like ability, with a caster level equal to your character level.  You may use this ability up to a number of times per day equal to 1/2 your HD (minimum 1).
 
 ### 11th level:
 **Fast Healing 5 (Su):** As a swift action,  you can sacrifice 10 temporary HP gained from feeding to gain Fast Healing 5 for a number of rounds equal to half your character level. Any damage that bypasses the your DR also prevents your Fast Healing for 1 round. This missed round does count towards the total number of rounds Fast Healing lasts.

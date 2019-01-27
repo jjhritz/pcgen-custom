@@ -27,7 +27,7 @@ COPYRIGHT:Copyright 2019 John J. Hritz
 
 
 ABILITY:vl_abilities_race.lst
-#ABILITYCATEGORY:mpc_abilitycategories.lst
+ABILITYCATEGORY:vl_abilitycategories.lst
 #BIOSET:mpc_biosettings.lst
 #CLASS:mpc_classes.lst
 #COMPANIONMOD:mpc_companionmods.lst
